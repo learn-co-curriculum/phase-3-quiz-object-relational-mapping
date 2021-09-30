@@ -1,0 +1,506 @@
+{
+  "quiz": {
+    "id": 19089,
+    "title": "Object-Relational Mapping Quiz",
+    "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19089",
+    "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19089?force_user=1&persist_headless=1",
+    "description": "<div>\n<div><span>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</span></div>\n<br>\n<div><span>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</span></div>\n</div>",
+    "quiz_type": "assignment",
+    "time_limit": null,
+    "timer_autosubmit_disabled": false,
+    "shuffle_answers": true,
+    "show_correct_answers": true,
+    "scoring_policy": "keep_highest",
+    "allowed_attempts": 3,
+    "one_question_at_a_time": true,
+    "question_count": 7,
+    "points_possible": 7.0,
+    "cant_go_back": false,
+    "access_code": null,
+    "ip_filter": null,
+    "due_at": null,
+    "lock_at": null,
+    "unlock_at": null,
+    "published": false,
+    "unpublishable": true,
+    "locked_for_user": true,
+    "lock_info": {
+      "missing_permission": "participate_as_student",
+      "asset_string": "quizzes:quiz_19089"
+    },
+    "lock_explanation": "This quiz is currently locked.",
+    "hide_results": null,
+    "show_correct_answers_at": null,
+    "hide_correct_answers_at": null,
+    "all_dates": [
+      {
+        "due_at": null,
+        "unlock_at": null,
+        "lock_at": null,
+        "base": true
+      }
+    ],
+    "can_unpublish": true,
+    "can_update": true,
+    "require_lockdown_browser": false,
+    "require_lockdown_browser_for_results": false,
+    "require_lockdown_browser_monitor": false,
+    "lockdown_browser_monitor_data": "",
+    "speed_grader_url": null,
+    "permissions": {
+      "manage": true,
+      "read": true,
+      "create": true,
+      "update": true,
+      "submit": true,
+      "preview": true,
+      "delete": true,
+      "read_statistics": true,
+      "grade": true,
+      "review_grades": true,
+      "view_answer_audits": true
+    },
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19089/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19089/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19089/submission_users/message",
+    "section_count": 1,
+    "important_dates": false,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19089/submission_versions",
+    "assignment_id": 129364,
+    "one_time_results": false,
+    "only_visible_to_overrides": false,
+    "assignment_group_id": 6376,
+    "show_correct_answers_last_attempt": true,
+    "version_number": 4,
+    "has_access_code": false,
+    "post_to_sis": false,
+    "migration_id": "gdeeeaaf277a0dc313894f036d2866172",
+    "question_types": [
+      "multiple_choice_question",
+      "multiple_answers_question"
+    ]
+  },
+  "questions": [
+    {
+      "quiz_id": 19089,
+      "id": 120545,
+      "quiz_group_id": null,
+      "assessment_question_id": 135418,
+      "position": null,
+      "question_name": "ORM: Basics",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Object Relational Mapping (ORM) is the technique of accessing a relational database using what type of programming language?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/defining-object-relational-mapping?module_item_id=143883\" target=\"_blank\">Defining Object-Relational Mapping</a></p>",
+      "answers": [
+        {
+          "id": 244,
+          "text": "Object-Oriented",
+          "html": "",
+          "comments": "",
+          "comments_html": "Whoooo!! Object Relational Mapping is a way for our programs to manage database data by \"mapping\" database tables to classes and instances of classes to rows in those tables.",
+          "weight": 100.0
+        },
+        {
+          "id": 2633,
+          "text": "Ruby",
+          "html": "",
+          "comments": "",
+          "comments_html": "Sort of. We can use Ruby, but we can also use other languages.",
+          "weight": 0.0
+        },
+        {
+          "id": 3857,
+          "text": "SQL",
+          "html": "",
+          "comments": "",
+          "comments_html": "Not quite. There's SQL under-the-hood, but it's not the star of the show.",
+          "weight": 0.0
+        },
+        {
+          "id": 9380,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19089,
+      "id": 120547,
+      "quiz_group_id": null,
+      "assessment_question_id": 135420,
+      "position": null,
+      "question_name": "ORM: Basics",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>To follow a pattern of&nbsp;</span><em>logical design</em><span>, if we have a&nbsp;</span><code>Car</code><span>&nbsp;class, what should the table be named?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong><span>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/pages/defining-object-relational-mapping?module_item_id=143883\" target=\"_blank\">Defining Object-Relational Mapping</a></span></p>",
+      "answers": [
+        {
+          "id": 2623,
+          "text": "",
+          "html": "<pre>cars</pre>",
+          "comments": "",
+          "comments_html": "Perfect! The table holds many cars, so it makes sense to call it cars.",
+          "weight": 100.0
+        },
+        {
+          "id": 6425,
+          "text": "",
+          "html": "<pre>car</pre>",
+          "comments": "",
+          "comments_html": "Not quite. Does the table hold one car or many?",
+          "weight": 0.0
+        },
+        {
+          "id": 3891,
+          "text": "",
+          "html": "<pre>vehicle</pre>",
+          "comments": "",
+          "comments_html": "Not quite. Conventionally, our table names and class names use matching terminology, except one is named singularly and the other is pluralized.",
+          "weight": 0.0
+        },
+        {
+          "id": 9079,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19089,
+      "id": 120548,
+      "quiz_group_id": null,
+      "assessment_question_id": 181177,
+      "position": null,
+      "question_name": "ORM: Mapping",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Consider the following code:</p>\n<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Car</span>\n\n  <span class=\"pl-en\">attr_accessor</span> <span class=\"pl-pds\">:make</span><span class=\"pl-kos\">,</span> <span class=\"pl-pds\">:model</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">make</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">model</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@make</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">make</span>\n    <span class=\"pl-c1\">@model</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">model</span>\n  <span class=\"pl-k\">end</span>\n\n<span class=\"pl-k\">end</span></pre>\n<p>In order to \"map\" this<span>&nbsp;</span><code>Car</code><span>&nbsp;</span>class to a<span>&nbsp;</span><code>cars</code><span>&nbsp;</span>database table, what needs to be done first?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/133607?module_item_id=277032\" target=\"_blank\">Mapping Ruby Classes to a Database</a></p>",
+      "answers": [
+        {
+          "id": 4274,
+          "text": "Create a database",
+          "html": "",
+          "comments": "",
+          "comments_html": "Yes! We can't map the class to anything if there's no database.",
+          "weight": 100.0
+        },
+        {
+          "id": 468,
+          "text": "",
+          "html": "<span>Create a&nbsp;</span><code>cars</code><span>&nbsp;table</span>",
+          "comments": "",
+          "comments_html": "We actually need something else first. What stores tables?",
+          "weight": 0.0
+        },
+        {
+          "id": 5091,
+          "text": "",
+          "html": "<span>Make a&nbsp;</span><code>.create_table</code><span>&nbsp;method</span>",
+          "comments": "",
+          "comments_html": "But where would the table be created?",
+          "weight": 0.0
+        },
+        {
+          "id": 3249,
+          "text": "",
+          "html": "<p>I don't know.</p>",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19089,
+      "id": 120550,
+      "quiz_group_id": null,
+      "assessment_question_id": 135422,
+      "position": null,
+      "question_name": "ORM: Mapping",
+      "question_type": "multiple_choice_question",
+      "question_text": "<div><span>To set a constant that contains a connection to a database, which syntax should be used?</span></div>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong><span>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/133607?module_item_id=277032\" target=\"_blank\">Mapping Ruby Classes to a Database</a></span></p>",
+      "answers": [
+        {
+          "id": 6702,
+          "text": "",
+          "html": "<pre><span class=\"pl-c1\">DB</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">{</span><span class=\"pl-pds\">:conn</span> <span class=\"pl-c1\">=&gt;</span> <span class=\"pl-v\">SQLite3</span>::<span class=\"pl-v\">Database</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"db/database.db\"</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">}</span></pre>",
+          "comments": "",
+          "comments_html": "Correct! We set up a constant, DB, that is equal to a hash that contains our connection to the database.",
+          "weight": 100.0
+        },
+        {
+          "id": 4215,
+          "text": "",
+          "html": "<pre><span class=\"pl-c1\">DB</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">{</span><span class=\"pl-pds\">:conn</span> <span class=\"pl-c1\">=&gt;</span> <span class=\"pl-v\">SQLite3</span>::<span class=\"pl-v\">Database</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"db/database.db\"</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">}</span></pre>",
+          "comments": "",
+          "comments_html": "Almost. We haven't created an instance of the Database.",
+          "weight": 0.0
+        },
+        {
+          "id": 2827,
+          "text": "",
+          "html": "<pre><span class=\"pl-s1\">db</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">{</span><span class=\"pl-pds\">:conn</span> <span class=\"pl-c1\">=&gt;</span> <span class=\"pl-v\">SQLite3</span>::<span class=\"pl-v\">Database</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"db/database.db\"</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">}</span></pre>",
+          "comments": "",
+          "comments_html": "Not quite. How do we declare a constant?",
+          "weight": 0.0
+        },
+        {
+          "id": 9865,
+          "text": "",
+          "html": "<pre><span class=\"pl-c1\">DB</span> <span class=\"pl-c1\">=</span> <span class=\"pl-kos\">{</span><span class=\"pl-pds\">conn</span> <span class=\"pl-c1\">=&gt;</span> <span class=\"pl-v\">SQLite3</span>::<span class=\"pl-v\">Database</span><span class=\"pl-kos\">.</span><span class=\"pl-en\">new</span><span class=\"pl-kos\">(</span><span class=\"pl-s\">\"db/database.db\"</span><span class=\"pl-kos\">)</span><span class=\"pl-kos\">}</span></pre>",
+          "comments": "",
+          "comments_html": "This will actually produce an error: <code>undefined local variable or method conn</code>.",
+          "weight": 0.0
+        },
+        {
+          "id": 605,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19089,
+      "id": 120551,
+      "quiz_group_id": null,
+      "assessment_question_id": 135423,
+      "position": null,
+      "question_name": "Question 5",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>How do we map a class to a database's table? (Select <strong>all</strong> that apply)</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong><span>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/133607?module_item_id=277032\" target=\"_blank\">Mapping Ruby Classes to a Database</a></span></p>",
+      "answers": [
+        {
+          "id": "2710",
+          "text": "Create a table with the same name as the class but pluralized",
+          "comments": "",
+          "comments_html": "Exactly! If the class is called Cat, the table should be called cats.",
+          "weight": 100.0
+        },
+        {
+          "id": "2211",
+          "text": "Match the names of the table's columns to the attributes (declared with attr_accessor) of the class",
+          "comments": "",
+          "comments_html": "So true! We need the columns and attributes to match, so that we know which data we're manipulating.",
+          "weight": 100.0
+        },
+        {
+          "id": "4773",
+          "text": "Match the names of the table's columns to class variables",
+          "comments": "",
+          "comments_html": "Not quite. Remember that each row in the table is represented by an object, or an instance of a class. What might that mean?",
+          "weight": 0.0
+        },
+        {
+          "id": "5830",
+          "text": "Create a table with the exact same name as the class",
+          "comments": "",
+          "comments_html": "Not quite. The table name and class name should be similar, but not exactly the same.",
+          "weight": 0.0
+        },
+        {
+          "id": "7742",
+          "text": "I don't know",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19089,
+      "id": 120552,
+      "quiz_group_id": null,
+      "assessment_question_id": 135424,
+      "position": null,
+      "question_name": "ORM: Mapping",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p><span>Consider the following columns:</span></p>\n<pre><span>| id | make | model |</span></pre>\n<p><span>Which code snippet creates a class with instance methods mapped to these table columns, following ORM conventions?</span></p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong><span>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/133607?module_item_id=277032\" target=\"_blank\">Mapping Ruby Classes to a Database</a></span></p>",
+      "answers": [
+        {
+          "id": 249,
+          "text": "",
+          "html": "<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Car</span>\n\n  <span class=\"pl-en\">attr_accessor</span> <span class=\"pl-pds\">:make</span><span class=\"pl-kos\">,</span> <span class=\"pl-pds\">:model</span><span class=\"pl-kos\">,</span> <span class=\"pl-pds\">:id</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">make</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">model</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">id</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">nil</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@id</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">id</span>\n    <span class=\"pl-c1\">@make</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">make</span>\n    <span class=\"pl-c1\">@model</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">model</span>\n  <span class=\"pl-k\">end</span>\n\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "Correct! All of the attributes have setters and getters, and the id is set to <code>nil</code> because it should only be set after the record is saved to the database.",
+          "weight": 100.0
+        },
+        {
+          "id": 3034,
+          "text": "",
+          "html": "<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Car</span>\n\n  <span class=\"pl-en\">attr_accessor</span> <span class=\"pl-pds\">:make</span><span class=\"pl-kos\">,</span> <span class=\"pl-pds\">:model</span><span class=\"pl-kos\">,</span> <span class=\"pl-pds\">:id</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">make</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">model</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">id</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@id</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">id</span>\n    <span class=\"pl-c1\">@make</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">make</span>\n    <span class=\"pl-c1\">@model</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">model</span>\n  <span class=\"pl-k\">end</span>\n\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "Hmm, something is missing. Take a look at the id. Do you notice anything?",
+          "weight": 0.0
+        },
+        {
+          "id": 7003,
+          "text": "",
+          "html": "<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Car</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">make</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">model</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">id</span><span class=\"pl-c1\">=</span><span class=\"pl-c1\">nil</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@id</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">id</span>\n    <span class=\"pl-c1\">@make</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">make</span>\n    <span class=\"pl-c1\">@model</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">model</span>\n  <span class=\"pl-k\">end</span>\n\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "Something is not quite right. How can we get and set the attributes (e.g. id, make, model) on an instance?",
+          "weight": 0.0
+        },
+        {
+          "id": 5074,
+          "text": "",
+          "html": "<pre><span class=\"pl-k\">class</span> <span class=\"pl-v\">Car</span>\n\n  <span class=\"pl-k\">def</span> <span class=\"pl-en\">initialize</span><span class=\"pl-kos\">(</span><span class=\"pl-s1\">make</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">model</span><span class=\"pl-kos\">,</span> <span class=\"pl-s1\">id</span><span class=\"pl-kos\">)</span>\n    <span class=\"pl-c1\">@id</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">id</span>\n    <span class=\"pl-c1\">@make</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">make</span>\n    <span class=\"pl-c1\">@model</span> <span class=\"pl-c1\">=</span> <span class=\"pl-s1\">model</span>\n  <span class=\"pl-k\">end</span>\n\n<span class=\"pl-k\">end</span></pre>",
+          "comments": "",
+          "comments_html": "There are a couple things wrong here. We are forgetting to do something with the id, and we have no way of accessing the attributes on an instance. How can we fix this?",
+          "weight": 0.0
+        },
+        {
+          "id": 393,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19089,
+      "id": 120553,
+      "quiz_group_id": null,
+      "assessment_question_id": 135425,
+      "position": null,
+      "question_name": "ORM: Mapping",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>Why do we use a dedicated method (<code>#save</code>) to insert a row into a table instead of saving the record in <code>#initialize</code>?</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "<p><strong>Source/s</strong><span>: <a class=\"inline_disabled\" href=\"https://learning.flatironschool.com/courses/3299/assignments/133607?module_item_id=277032\" target=\"_blank\">Mapping Ruby Classes to a Database</a></span></p>",
+      "answers": [
+        {
+          "id": "2894",
+          "text": "We don't want to couple the creation of objects with saving records to a database",
+          "comments": "",
+          "comments_html": "Yes! This makes our code more modular, so we can choose to create objects or save to the database. This is much more flexible than coupling both functions in the same method.",
+          "weight": 100.0
+        },
+        {
+          "id": "7295",
+          "text": "We might need to create objects without saving them to the database",
+          "comments": "",
+          "comments_html": "Exactly! We may need to manipulate those objects after certain tasks have run, and then save them.",
+          "weight": 100.0
+        },
+        {
+          "id": "5417",
+          "text": "We can't set the attributes and save the record in the same method",
+          "comments": "",
+          "comments_html": "Not quite. We can do both of these things in a method if we want.",
+          "weight": 0.0
+        },
+        {
+          "id": "6040",
+          "text": "There's no real reason. It's just a convention",
+          "comments": "",
+          "comments_html": "We do have reasons, though this is a convention.",
+          "weight": 0.0
+        },
+        {
+          "id": "5311",
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    }
+  ]
+}
