@@ -13,8 +13,8 @@
     "scoring_policy": "keep_highest",
     "allowed_attempts": 3,
     "one_question_at_a_time": true,
-    "question_count": 7,
-    "points_possible": 7.0,
+    "question_count": 10,
+    "points_possible": 10.0,
     "cant_go_back": false,
     "access_code": null,
     "ip_filter": null,
@@ -323,7 +323,7 @@
       "quiz_group_id": null,
       "assessment_question_id": 135423,
       "position": null,
-      "question_name": "Question 5",
+      "question_name": "ORM: Mapping",
       "question_type": "multiple_answers_question",
       "question_text": "<p>How do we map a class to a database's table? (Select <strong>all</strong> that apply)</p>",
       "points_possible": 1.0,
@@ -492,6 +492,190 @@
           "text": "I don't know.",
           "comments": "",
           "comments_html": "Be sure to study the source/s for this question. You'll get it next time.",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19089,
+      "id": 149626,
+      "quiz_group_id": null,
+      "assessment_question_id": 185685,
+      "position": null,
+      "question_name": "Question",
+      "question_type": "matching_question",
+      "question_text": "<p>How does an ORM (Object-Relational Map) map between our object-oriented code and a database table? Match each OO concept to the corresponding database structure:</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 1053,
+          "text": "Class",
+          "left": "Class",
+          "right": "Database table",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 1305
+        },
+        {
+          "id": 8902,
+          "text": "Instance of a class",
+          "left": "Instance of a class",
+          "right": "Table row",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 9914
+        },
+        {
+          "id": 9076,
+          "text": "Attribute belonging to a class",
+          "left": "Attribute belonging to a class",
+          "right": "Table column",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 4982
+        },
+        {
+          "id": 7846,
+          "text": "Value of an attribute for an instance of a class",
+          "left": "Value of an attribute for an instance of a class",
+          "right": "Table cell",
+          "comments": "",
+          "comments_html": "",
+          "match_id": 4720
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": [
+        {
+          "text": "Database table",
+          "match_id": 1305
+        },
+        {
+          "text": "Table row",
+          "match_id": 9914
+        },
+        {
+          "text": "Table column",
+          "match_id": 4982
+        },
+        {
+          "text": "Table cell",
+          "match_id": 4720
+        },
+        {
+          "text": "I don't know.",
+          "match_id": 4619
+        }
+      ],
+      "matching_answer_incorrect_matches": "I don't know."
+    },
+    {
+      "quiz_id": 19089,
+      "id": 149627,
+      "quiz_group_id": null,
+      "assessment_question_id": 185686,
+      "position": null,
+      "question_name": "Question",
+      "question_type": "multiple_choice_question",
+      "question_text": "<p>Using an ORM enables us to save Ruby objects in our database. (false)</p>\n<p>Incorrect answer info:&nbsp;</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 688,
+          "text": "True",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p>This one is a bit tricky! We are not able to save the object itself into our database; instead, we are saving the values of the attributes of that object.</p>",
+          "weight": 0.0
+        },
+        {
+          "id": 3558,
+          "text": "False",
+          "html": "",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 4216,
+          "text": "I don't know.",
+          "html": "",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
+          "weight": 0.0
+        }
+      ],
+      "variables": null,
+      "formulas": null,
+      "answer_tolerance": null,
+      "formula_decimal_places": null,
+      "matches": null,
+      "matching_answer_incorrect_matches": null
+    },
+    {
+      "quiz_id": 19089,
+      "id": 149628,
+      "quiz_group_id": null,
+      "assessment_question_id": 185687,
+      "position": null,
+      "question_name": "Question",
+      "question_type": "multiple_answers_question",
+      "question_text": "<p>Which of the following are advantages of using an ORM? (select all that apply)</p>",
+      "points_possible": 1.0,
+      "correct_comments": "",
+      "incorrect_comments": "",
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
+      "answers": [
+        {
+          "id": 3474,
+          "text": "It allows us to abstract common database tasks into methods.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 4308,
+          "text": "It cuts down on repetitive code.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 3345,
+          "text": "It sets up a consistent, logical relationship between object-oriented code and database tables.",
+          "comments": "",
+          "comments_html": "",
+          "weight": 100.0
+        },
+        {
+          "id": 7855,
+          "text": "I don't know.",
+          "comments": "",
+          "comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
           "weight": 0.0
         }
       ],
