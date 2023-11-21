@@ -1,10 +1,10 @@
 {
   "quiz": {
-    "id": 19089,
+    "id": 53500,
     "title": "Object-Relational Mapping Quiz",
-    "html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19089",
-    "mobile_url": "https://learning.flatironschool.com/courses/3299/quizzes/19089?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-object-relational-mapping\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-object-relational-mapping/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "html_url": "https://learning.flatironschool.com/courses/7559/quizzes/53500",
+    "mobile_url": "https://learning.flatironschool.com/courses/7559/quizzes/53500?force_user=1&persist_headless=1",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-3-quiz-object-relational-mapping\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-3-quiz-object-relational-mapping/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -26,10 +26,10 @@
     "locked_for_user": true,
     "lock_info": {
       "missing_permission": "participate_as_student",
-      "asset_string": "quizzes:quiz_19089"
+      "asset_string": "quizzes:quiz_53500"
     },
     "lock_explanation": "This quiz is currently locked.",
-    "hide_results": "until_after_last_attempt",
+    "hide_results": null,
     "show_correct_answers_at": null,
     "hide_correct_answers_at": null,
     "all_dates": [
@@ -60,75 +60,73 @@
       "review_grades": true,
       "view_answer_audits": true
     },
-    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19089/reports",
-    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19089/statistics",
-    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/3299/quizzes/19089/submission_users/message",
+    "quiz_reports_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53500/reports",
+    "quiz_statistics_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53500/statistics",
+    "message_students_url": "https://learning.flatironschool.com/api/v1/courses/7559/quizzes/53500/submission_users/message",
     "section_count": 1,
     "important_dates": false,
-    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/3299/quizzes/19089/submission_versions",
-    "assignment_id": 129364,
+    "quiz_submission_versions_html_url": "https://learning.flatironschool.com/courses/7559/quizzes/53500/submission_versions",
+    "assignment_id": 263579,
     "one_time_results": false,
     "only_visible_to_overrides": false,
-    "assignment_group_id": 6376,
+    "assignment_group_id": 25101,
     "show_correct_answers_last_attempt": true,
-    "version_number": 6,
+    "version_number": 3,
     "has_access_code": false,
     "post_to_sis": false,
-    "migration_id": "gdeeeaaf277a0dc313894f036d2866172",
+    "migration_id": "gc478d052af9cfd7bc6343809d7eb9f0d",
+    "in_paced_course": false,
     "question_types": [
-      "multiple_choice_question",
-      "multiple_answers_question"
+
     ]
   },
   "questions": [
     {
-      "quiz_id": 19089,
-      "id": 120545,
+      "id": 366046,
+      "quiz_id": 53500,
       "quiz_group_id": null,
-      "assessment_question_id": 135418,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 1,
       "question_name": "ORM: Basics",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Object Relational Mapping (ORM) is the technique of accessing a relational\ndatabase using what type of programming language? Choose the <strong>best</strong> answer.</p>",
+      "question_text": "Object Relational Mapping (ORM) is the technique of accessing a relational database using what type of programming language? Choose the <strong>best</strong> answer.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/defining-object-relational-mapping\">Defining Object-Relational Mapping</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:Defining Object-Relational Mapping",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7559/pages/defining-object-relational-mapping\">Defining Object-Relational Mapping</a></li></ul><p></p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_5035",
           "id": 5035,
-          "text": "",
-          "html": "<p>Object-Oriented</p>",
-          "comments": "",
-          "comments_html": "<p>Whoooo!! Object Relational Mapping is a way for our programs to manage database\ndata by \"mapping\" database tables to classes and instances of classes to rows in\nthose tables.</p>",
-          "weight": 100.0
+          "text": "Object-Oriented",
+          "comments": "Whoooo!! Object Relational Mapping is a way for our programs to manage database data by \"mapping\" database tables to classes and instances of classes to rows in those tables.",
+          "comments_html": "Whoooo!! Object Relational Mapping is a way for our programs to manage database\ndata by \"mapping\" database tables to classes and instances of classes to rows in\nthose tables."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_7436",
           "id": 7436,
-          "text": "",
-          "html": "<p>Ruby</p>",
-          "comments": "",
-          "comments_html": "<p>Sort of. We can use Ruby, but we can also use other languages.</p>",
-          "weight": 0.0
+          "text": "Python",
+          "comments": "Sort of. We can use Python, but we can also use other languages."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_2929",
           "id": 2929,
-          "text": "",
-          "html": "<p>SQL</p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. There's SQL under-the-hood, but it's not the star of the show.</p>",
-          "weight": 0.0
+          "text": "SQL",
+          "comments": "Not quite. There's SQL under-the-hood, but it's not the star of the show."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_2568",
           "id": 2568,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -139,53 +137,54 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19089,
-      "id": 120547,
+      "id": 366047,
+      "quiz_id": 53500,
       "quiz_group_id": null,
-      "assessment_question_id": 135420,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 2,
       "question_name": "ORM: Basics",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>To follow a pattern of <em>logical design</em>, if we have a <code>Car</code> Ruby class, what\nshould the corresponding SQL table be named?</p>",
+      "question_text": "To follow a pattern of <em>logical design</em>, if we have a <code>Car</code> Python class, what should the corresponding SQL table be named?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/defining-object-relational-mapping?module_item_id=143883\">Defining Object-Relational Mapping</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:  Defining Object-Relational Mapping",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a href=\"/courses/7559/pages/defining-object-relational-mapping?module_item_id=629291\">Defining Object-Relational Mapping</a></li>\n</ul>\n<p>&nbsp;</p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_5964",
           "id": 5964,
-          "text": "",
-          "html": "<p><code>cars</code></p>",
-          "comments": "",
-          "comments_html": "<p>Perfect! The table holds many cars, so it makes sense to call it cars.</p>",
-          "weight": 100.0
+          "text": "cars",
+          "html": "<code>cars</code>",
+          "comments": "Perfect! The table holds many cars, so it makes sense to call it cars."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_1475",
           "id": 1475,
-          "text": "",
-          "html": "<p><code>car</code></p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. Does the table hold one car or many?</p>",
-          "weight": 0.0
+          "text": "car",
+          "html": "<code>car</code>",
+          "comments": "Not quite. Does the table hold one car or many?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_762",
           "id": 762,
-          "text": "",
-          "html": "<p><code>vehicle</code></p>",
-          "comments": "",
-          "comments_html": "<p>Not quite. Conventionally, our table names and class names use matching\nterminology, except one is singular and the other is plural.</p>",
-          "weight": 0.0
+          "text": "vehicle",
+          "html": "<code>vehicle</code>",
+          "comments": "Not quite. Conventionally, our table names and class names use matching terminology, except one is singular and the other is plural.",
+          "comments_html": "Not quite. Conventionally, our table names and class names use matching\nterminology, except one is singular and the other is plural."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_5601",
           "id": 5601,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -196,53 +195,44 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19089,
-      "id": 120548,
+      "id": 366048,
+      "quiz_id": 53500,
       "quiz_group_id": null,
-      "assessment_question_id": 181177,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 3,
       "question_name": "ORM: Mapping",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span>\n  <span class=\"nb\">attr_accessor</span> <span class=\"ss\">:make</span><span class=\"p\">,</span> <span class=\"ss\">:model</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">initialize</span><span class=\"p\">(</span><span class=\"n\">make</span><span class=\"p\">,</span> <span class=\"n\">model</span><span class=\"p\">)</span>\n    <span class=\"vi\">@make</span> <span class=\"o\">=</span> <span class=\"n\">make</span>\n    <span class=\"vi\">@model</span> <span class=\"o\">=</span> <span class=\"n\">model</span>\n  <span class=\"k\">end</span>\n<span class=\"k\">end</span>\n</code></pre></div>\n<p>In order to \"map\" this <code>Car</code> class to a <code>cars</code> database table, what needs to be\ndone first?</p>",
+      "question_text": "<p>Consider the following code:</p>\n<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car:</span>\n  <span class=\"k\">def</span> __<span class=\"nf\">init__</span><span class=\"p\">(self, </span><span class=\"n\">make</span><span class=\"p\">,</span> <span class=\"n\">model</span><span class=\"p\">):</span>\n    self.<span class=\"vi\">make</span> <span class=\"o\">=</span> <span class=\"n\">make</span>\n    self.<span class=\"vi\">model</span> <span class=\"o\">=</span> <span class=\"n\">model</span>\n\n</code></pre>\n</div>\n<p>In order to \"map\" this <code>Car</code> class to a <code>cars</code> database table, what needs to be done first?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133607\">Mapping Ruby Classes to a Database</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:  Mapping Database Records to Python Objects",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a href=\"/courses/7559/pages/v1-mapping-database-records-to-python-objects?module_item_id=g1ba1cadbb4dc31c512d279075f02de30\">Mapping Database Records to Python Objects</a></li>\n</ul>\n<p>&nbsp;</p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_8243",
           "id": 8243,
-          "text": "",
-          "html": "<p>Create a database</p>",
-          "comments": "",
-          "comments_html": "<p>Yes! We can't map the class to anything if there's no database.</p>",
-          "weight": 100.0
+          "text": "Create a database",
+          "comments": "Yes! We can't map the class to anything if there's no database."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_335",
           "id": 335,
-          "text": "",
-          "html": "<p>Create a <code>cars</code> table</p>",
-          "comments": "",
-          "comments_html": "<p>We actually need something else first. What stores tables?</p>",
-          "weight": 0.0
+          "text": "Create a cars table",
+          "html": "Create a <code>cars</code> table",
+          "comments": "We actually need something else first. What stores tables?"
         },
         {
-          "id": 8108,
-          "text": "",
-          "html": "<p>Make a <code>.create_table</code> method</p>",
-          "comments": "",
-          "comments_html": "<p>But where would the table be created?</p>",
-          "weight": 0.0
-        },
-        {
+          "weight": 0,
+          "migration_id": "RESPONSE_8378",
           "id": 8378,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -253,61 +243,62 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19089,
-      "id": 120551,
+      "id": 366049,
+      "quiz_id": 53500,
       "quiz_group_id": null,
-      "assessment_question_id": 135423,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 4,
       "question_name": "Question 5",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>What are the steps needed to write a class that is mapped to a database table?\nSelect <strong>all</strong> that apply.</p>",
+      "question_text": "What are the steps needed to write a class that is mapped to a database table? Select <strong>all</strong> that apply.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133607?module_item_id=277032\">Mapping Ruby Classes to a Database</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:  Mapping Database Records to Python Objects",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a href=\"/courses/7559/pages/v1-mapping-database-records-to-python-objects?module_item_id=g1ba1cadbb4dc31c512d279075f02de30\">Mapping Database Records to Python Objects</a></li>\n</ul>\n<p>&nbsp;</p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_5061",
           "id": 5061,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Exactly! If the class is called Cat, the table should be called cats.</p>",
-          "weight": 100.0,
-          "html": "<p>Create a table with the same name as the class, but pluralized</p>"
+          "text": "Create a table with the same name as the class, but pluralized",
+          "comments": "Exactly! If the class is called Cat, the table should be called cats."
         },
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_4077",
           "id": 4077,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>So true! We need the columns and attributes to match, so that we know which\ndata we're manipulating.</p>",
-          "weight": 100.0,
-          "html": "<p>Match the names of the table's columns to the attributes (declared with\n<code>attr_accessor</code>) of the class</p>"
+          "text": "Match the names of the table's columns to the attributesof the class",
+          "html": "Match the names of the table's columns to the attributes&nbsp;of the class",
+          "comments": "So true! We need the columns and attributes to match, so that we know which data we're manipulating.",
+          "comments_html": "So true! We need the columns and attributes to match, so that we know which\ndata we're manipulating."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_924",
           "id": 924,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Not quite. Remember that each row in the table is represented by an object, or\nan instance of a class. What might that mean?</p>",
-          "weight": 0.0,
-          "html": "<p>Match the names of the table's columns to class variables</p>"
+          "text": "Match the names of the table's columns to class variables",
+          "html": "Match the names of the table's columns to class variables",
+          "comments": "Not quite. Remember that each row in the table is represented by an object, or an instance of a class. What might that mean?",
+          "comments_html": "Not quite. Remember that each row in the table is represented by an object, or\nan instance of a class. What might that mean?"
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_7085",
           "id": 7085,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Not quite. The table name and class name should be similar, but not exactly the\nsame.</p>",
-          "weight": 0.0,
-          "html": "<p>Create a table with the exact same name as the class</p>"
+          "text": "Create a table with the exact same name as the class",
+          "comments": "Not quite. The table name and class name should be similar, but not exactly the same.",
+          "comments_html": "Not quite. The table name and class name should be similar, but not exactly the\nsame."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_6697",
           "id": 6697,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know</p>"
+          "text": "I don't know",
+          "html": "I don't know",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -318,61 +309,47 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19089,
-      "id": 120552,
+      "id": 366050,
+      "quiz_id": 53500,
       "quiz_group_id": null,
-      "assessment_question_id": 135424,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 5,
       "question_name": "ORM: Mapping",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Consider a table with the following columns:</p>\n<div class=\"highlight\"><pre class=\"highlight plaintext\"><code>| id | make | model |\n</code></pre></div>\n<p>Which code snippet creates a class with instance methods mapped to these table\ncolumns, following ORM conventions?</p>",
+      "question_text": "<p>Consider a table with the following columns:</p>\n<div class=\"highlight\">\n<pre class=\"highlight plaintext\"><code>| id | make | model |\n</code></pre>\n</div>\n<p>Which code snippet creates a class with instance methods mapped to these table columns, following ORM conventions?</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133607\">Mapping Ruby Classes to a Database</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:  Mapping Python Classes to a Database",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a href=\"/courses/7559/assignments/263663?module_item_id=gc7052c1ec73a632ce1c697cca3431680\">Mapping Python Classes to a Database</a></li>\n</ul>\n<p>&nbsp;</p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_3295",
           "id": 3295,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span>\n\n  <span class=\"nb\">attr_accessor</span> <span class=\"ss\">:make</span><span class=\"p\">,</span> <span class=\"ss\">:model</span><span class=\"p\">,</span> <span class=\"ss\">:id</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">initialize</span><span class=\"p\">(</span><span class=\"n\">make</span><span class=\"p\">,</span> <span class=\"n\">model</span><span class=\"p\">,</span> <span class=\"nb\">id</span><span class=\"o\">=</span><span class=\"kp\">nil</span><span class=\"p\">)</span>\n    <span class=\"vi\">@id</span> <span class=\"o\">=</span> <span class=\"nb\">id</span>\n    <span class=\"vi\">@make</span> <span class=\"o\">=</span> <span class=\"n\">make</span>\n    <span class=\"vi\">@model</span> <span class=\"o\">=</span> <span class=\"n\">model</span>\n  <span class=\"k\">end</span>\n\n<span class=\"k\">end</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Correct! All of the attributes have setters and getters, and the id is set to\n<code>nil</code> because it should only be set after the record is saved to the database.</p>",
-          "weight": 100.0
+          "text": "class Car: def __init__(self, make, model): self.id = None self.make = make self.model = model",
+          "html": "<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car:</span>\n\n  <span class=\"k\">def</span> __<span class=\"nf\">init__</span><span class=\"p\">(self, </span><span class=\"n\">make</span><span class=\"p\">,</span> <span class=\"n\">model</span><span class=\"p\">):</span>\n    self.<span class=\"vi\">id</span> <span class=\"o\">=</span> None<br> &nbsp; &nbsp;self.<span class=\"vi\">make</span> <span class=\"o\">=</span> <span class=\"n\">make</span>\n    self.<span class=\"vi\">model</span> <span class=\"o\">=</span> <span class=\"n\">model</span>\n\n</code></pre>\n</div>",
+          "comments": "Correct! The id is set to None because it should only be set after the record is saved to the database.",
+          "comments_html": "Correct! The id is set to <code>None</code> because it should only be set after the record is saved to the database."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_2731",
           "id": 2731,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span>\n\n  <span class=\"nb\">attr_accessor</span> <span class=\"ss\">:make</span><span class=\"p\">,</span> <span class=\"ss\">:model</span><span class=\"p\">,</span> <span class=\"ss\">:id</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">initialize</span><span class=\"p\">(</span><span class=\"n\">make</span><span class=\"p\">,</span> <span class=\"n\">model</span><span class=\"p\">,</span> <span class=\"nb\">id</span><span class=\"p\">)</span>\n    <span class=\"vi\">@id</span> <span class=\"o\">=</span> <span class=\"nb\">id</span>\n    <span class=\"vi\">@make</span> <span class=\"o\">=</span> <span class=\"n\">make</span>\n    <span class=\"vi\">@model</span> <span class=\"o\">=</span> <span class=\"n\">model</span>\n  <span class=\"k\">end</span>\n\n<span class=\"k\">end</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Hmm, something is missing. Take a look at the id. The id shouldn't be saved\nuntil after the record has been saved to the database.</p>",
-          "weight": 0.0
+          "text": "class Car: def __init__(self, make, model, id): self.id = id self.make = make self.model = model",
+          "html": "<div class=\"highlight\">\n<pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car:</span>\n  <span class=\"k\">def</span> __<span class=\"nf\">init__</span><span class=\"p\">(self, </span><span class=\"n\">make</span><span class=\"p\">,</span> <span class=\"n\">model</span><span class=\"p\">,</span> <span class=\"nb\">id</span><span class=\"p\">):</span>\n    self.<span class=\"vi\">id</span> <span class=\"o\">=</span> <span class=\"nb\">id</span>\n    self.<span class=\"vi\">make</span> <span class=\"o\">=</span> <span class=\"n\">make</span>\n    self.<span class=\"vi\">model</span> <span class=\"o\">=</span> <span class=\"n\">model</span></code></pre>\n</div>",
+          "comments": "Hmm, something is missing. Take a look at the id. The id shouldn't be saved until after the record has been saved to the database.",
+          "comments_html": "Hmm, something is missing. Take a look at the id. The id shouldn't be saved\nuntil after the record has been saved to the database."
         },
         {
-          "id": 5012,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">initialize</span><span class=\"p\">(</span><span class=\"n\">make</span><span class=\"p\">,</span> <span class=\"n\">model</span><span class=\"p\">,</span> <span class=\"nb\">id</span><span class=\"o\">=</span><span class=\"kp\">nil</span><span class=\"p\">)</span>\n    <span class=\"vi\">@id</span> <span class=\"o\">=</span> <span class=\"nb\">id</span>\n    <span class=\"vi\">@make</span> <span class=\"o\">=</span> <span class=\"n\">make</span>\n    <span class=\"vi\">@model</span> <span class=\"o\">=</span> <span class=\"n\">model</span>\n  <span class=\"k\">end</span>\n\n<span class=\"k\">end</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>Something is not quite right. How can we get and set the attributes (e.g. id,\nmake, model) on an instance?</p>",
-          "weight": 0.0
-        },
-        {
-          "id": 599,
-          "text": "",
-          "html": "<div class=\"highlight\"><pre class=\"highlight ruby\"><code><span class=\"k\">class</span> <span class=\"nc\">Car</span>\n\n  <span class=\"k\">def</span> <span class=\"nf\">initialize</span><span class=\"p\">(</span><span class=\"n\">make</span><span class=\"p\">,</span> <span class=\"n\">model</span><span class=\"p\">,</span> <span class=\"nb\">id</span><span class=\"p\">)</span>\n    <span class=\"vi\">@id</span> <span class=\"o\">=</span> <span class=\"nb\">id</span>\n    <span class=\"vi\">@make</span> <span class=\"o\">=</span> <span class=\"n\">make</span>\n    <span class=\"vi\">@model</span> <span class=\"o\">=</span> <span class=\"n\">model</span>\n  <span class=\"k\">end</span>\n\n<span class=\"k\">end</span>\n</code></pre></div>",
-          "comments": "",
-          "comments_html": "<p>There are a couple things wrong here. We are forgetting to do something with the\nid, and we have no way of accessing the attributes on an instance. How can we\nfix this?</p>",
-          "weight": 0.0
-        },
-        {
+          "weight": 0,
+          "migration_id": "RESPONSE_9925",
           "id": 9925,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -383,61 +360,62 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19089,
-      "id": 120553,
+      "id": 366051,
+      "quiz_id": 53500,
       "quiz_group_id": null,
-      "assessment_question_id": 135425,
-      "position": null,
+      "assessment_question_id": null,
+      "position": 6,
       "question_name": "ORM: Mapping",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Why do we use a dedicated method (<code>#save</code>) to insert a row into a table instead\nof saving the record in <code>#initialize</code>?</p>",
+      "question_text": "Why do we use a dedicated method <code>save()</code> to insert a row into a table instead of saving the record in <code>__init__</code>?",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133607\">Mapping Ruby Classes to a Database</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:  Mapping Python Classes to a Database",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a href=\"/courses/7559/assignments/263663?module_item_id=gc7052c1ec73a632ce1c697cca3431680\">Mapping Python Classes to a Database</a></li>\n</ul>\n<p>&nbsp;</p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_1825",
           "id": 1825,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Yes! This makes our code more modular, so we can choose to create objects or\nsave to the database. This is much more flexible than coupling both functions in\nthe same method.</p>",
-          "weight": 100.0,
-          "html": "<p>We don't want to couple the creation of objects with saving records to a\ndatabase</p>"
+          "text": "We don't want to couple the creation of objects with saving records to a database",
+          "html": "We don't want to couple the creation of objects with saving records to a\ndatabase",
+          "comments": "Yes! This makes our code more modular, so we can choose to create objects or save to the database. This is much more flexible than coupling both functions in the same method.",
+          "comments_html": "Yes! This makes our code more modular, so we can choose to create objects or\nsave to the database. This is much more flexible than coupling both functions in\nthe same method."
         },
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_772",
           "id": 772,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Exactly! We may need to manipulate those objects after certain tasks have run,\nand then save them.</p>",
-          "weight": 100.0,
-          "html": "<p>We might need to create objects without saving them to the database</p>"
+          "text": "We might need to create objects without saving them to the database",
+          "comments": "Exactly! We may need to manipulate those objects after certain tasks have run, and then save them.",
+          "comments_html": "Exactly! We may need to manipulate those objects after certain tasks have run,\nand then save them."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_1533",
           "id": 1533,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Not quite. We can do both of these things in a method if we want.</p>",
-          "weight": 0.0,
-          "html": "<p>We can't set the attributes and save the record in the same method</p>"
+          "text": "We can't set the attributes and save the record in the same method",
+          "html": "We can't set the attributes and save the record in the same method",
+          "comments": "Not quite. We can do both of these things in a method if we want."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_5950",
           "id": 5950,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>We do have reasons, though this is a convention.</p>",
-          "weight": 0.0,
-          "html": "<p>There's no real reason. It's just a convention</p>"
+          "text": "There's no real reason. It's just a convention",
+          "html": "There's no real reason. It's just a convention",
+          "comments": "We do have reasons, though this is a convention."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_5404",
           "id": 5404,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -448,57 +426,49 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19089,
-      "id": 149626,
+      "id": 366052,
+      "quiz_id": 53500,
       "quiz_group_id": null,
-      "assessment_question_id": 185685,
-      "position": null,
-      "question_name": "Question",
+      "assessment_question_id": null,
+      "position": 7,
+      "question_name": "ORM: Mapping",
       "question_type": "matching_question",
-      "question_text": "<p>How does an ORM (Object-Relational Map) map between our object-oriented code and\na database table? Match each OO concept to the corresponding database structure:</p>",
+      "question_text": "How does an ORM (Object-Relational Map) map between our object-oriented code and a database table? Match each OO concept to the corresponding database structure:",
       "points_possible": 1.0,
       "correct_comments": "",
-      "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "<p><span>Be sure to study the source/s for this question. You'll get it next time.</span></p>",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/defining-object-relational-mapping\">Defining Object-Relational Mapping</a></li></ul><p></p>",
+      "incorrect_comments": "Be sure to study the source/s for this question. You'll get it next time.",
+      "neutral_comments": "Source/s:  Defining Object-Relational Mapping",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a href=\"/courses/7559/pages/defining-object-relational-mapping\">Defining Object-Relational Mapping</a></li>\n</ul>\n<p>&nbsp;</p>",
       "answers": [
         {
-          "id": 4246,
           "text": "Class",
+          "id": 8754,
+          "match_id": 7088,
           "left": "Class",
-          "right": "Database table",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 190
+          "right": "Database table"
         },
         {
-          "id": 7310,
           "text": "Instance of a class",
+          "id": 8873,
+          "match_id": 1518,
           "left": "Instance of a class",
-          "right": "Table row",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 3662
+          "right": "Table row"
         },
         {
-          "id": 7260,
           "text": "Attribute belonging to a class",
+          "id": 7035,
+          "match_id": 7592,
           "left": "Attribute belonging to a class",
-          "right": "Table column",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 4156
+          "right": "Table column"
         },
         {
-          "id": 5953,
           "text": "Value of an attribute for an instance of a class",
+          "id": 253,
+          "match_id": 9635,
           "left": "Value of an attribute for an instance of a class",
-          "right": "Table cell",
-          "comments": "",
-          "comments_html": "",
-          "match_id": 2855
+          "right": "Table cell"
         }
       ],
       "variables": null,
@@ -507,68 +477,68 @@
       "formula_decimal_places": null,
       "matches": [
         {
-          "text": "Database table",
-          "match_id": 190
+          "match_id": 7088,
+          "text": "Database table"
         },
         {
-          "text": "Table row",
-          "match_id": 3662
+          "match_id": 1518,
+          "text": "Table row"
         },
         {
-          "text": "Table column",
-          "match_id": 4156
+          "match_id": 7592,
+          "text": "Table column"
         },
         {
-          "text": "Table cell",
-          "match_id": 2855
+          "match_id": 9635,
+          "text": "Table cell"
         },
         {
-          "text": "I don't know.",
-          "match_id": 6640
+          "match_id": 4510,
+          "text": "I don't know."
         }
       ],
-      "matching_answer_incorrect_matches": "I don't know."
+      "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19089,
-      "id": 149627,
+      "id": 366053,
+      "quiz_id": 53500,
       "quiz_group_id": null,
-      "assessment_question_id": 185686,
-      "position": null,
-      "question_name": "Question",
+      "assessment_question_id": null,
+      "position": 8,
+      "question_name": "Question 1",
       "question_type": "multiple_choice_question",
-      "question_text": "<p>Using an ORM enables us to save entire Ruby objects in our database.</p>",
+      "question_text": "Using an ORM enables us to save entire Python objects in our database.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/assignments/133607?module_item_id=277032\">Mapping Ruby Classes to a Database</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:  Mapping Python Classes to a Database",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a href=\"/courses/7559/assignments/263663?module_item_id=gc7052c1ec73a632ce1c697cca3431680\">Mapping Python Classes to a Database</a></li>\n</ul>\n<p>&nbsp;</p>",
       "answers": [
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_8472",
           "id": 8472,
-          "text": "",
-          "html": "<p>True</p>",
-          "comments": "",
-          "comments_html": "<p>This one is a bit tricky! We are not able to save the object itself into our\ndatabase; instead, we are saving the <strong>data</strong> from the <strong>attributes</strong> of that\nobject.</p>",
-          "weight": 0.0
+          "text": "True",
+          "comments": "This one is a bit tricky! We are not able to save the object itself into our database; instead, we are saving the data from the attributes of that object.",
+          "comments_html": "This one is a bit tricky! We are not able to save the object itself into our\ndatabase; instead, we are saving the <strong>data</strong> from the <strong>attributes</strong> of that\nobject."
         },
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_3979",
           "id": 3979,
-          "text": "",
-          "html": "<p>False</p>",
-          "comments": "",
-          "comments_html": "<p>Right! We are not able to save the object itself into our database; instead,\nwe are saving the <strong>data</strong> from the <strong>attributes</strong> of that object.</p>",
-          "weight": 100.0
+          "text": "False",
+          "comments": "Right! We are not able to save the object itself into our database; instead, we are saving the data from the attributes of that object.",
+          "comments_html": "Right! We are not able to save the object itself into our database; instead,\nwe are saving the <strong>data</strong> from the <strong>attributes</strong> of that object."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_7092",
           "id": 7092,
-          "text": "",
-          "html": "<p>I don't know.</p>",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
@@ -579,53 +549,53 @@
       "matching_answer_incorrect_matches": null
     },
     {
-      "quiz_id": 19089,
-      "id": 149628,
+      "id": 366054,
+      "quiz_id": 53500,
       "quiz_group_id": null,
-      "assessment_question_id": 185687,
-      "position": null,
-      "question_name": "Question",
+      "assessment_question_id": null,
+      "position": 9,
+      "question_name": "Question 2",
       "question_type": "multiple_answers_question",
-      "question_text": "<p>Which of the following are advantages of using an ORM? Select all that apply.</p>",
+      "question_text": "Which of the following are advantages of using an ORM? Select all that apply.",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": "",
-      "correct_comments_html": "",
-      "incorrect_comments_html": "",
-      "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3299/pages/defining-object-relational-mapping\">Defining Object-Relational Mapping</a></li></ul><p></p>",
+      "neutral_comments": "Source/s:  Defining Object-Relational Mapping",
+      "correct_comments_html": null,
+      "incorrect_comments_html": null,
+      "neutral_comments_html": "<p><strong>Source/s:</strong></p>\n<ul>\n<li><a href=\"/courses/7559/pages/defining-object-relational-mapping\">Defining Object-Relational Mapping</a></li>\n</ul>\n<p>&nbsp;</p>",
       "answers": [
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_8847",
           "id": 8847,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Right! Abstraction is a very powerful tool that can make it much easier to\ngrow our applications.</p>",
-          "weight": 100.0,
-          "html": "<p>It allows us to abstract common database tasks into methods.</p>"
+          "text": "It allows us to abstract common database tasks into methods.",
+          "comments": "Right! Abstraction is a very powerful tool that can make it much easier to grow our applications.",
+          "comments_html": "Right! Abstraction is a very powerful tool that can make it much easier to\ngrow our applications."
         },
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_5277",
           "id": 5277,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Right! It's quite convenient to have a Ruby class that knows how to insert\nrecords into SQL rather than having to write that code out by hand.</p>",
-          "weight": 100.0,
-          "html": "<p>It cuts down on repetitive code.</p>"
+          "text": "It cuts down on repetitive code.",
+          "comments": "Right! It's quite convenient to have a Python class that knows how to insert records into SQL rather than having to write that code out by hand."
         },
         {
+          "weight": 100,
+          "migration_id": "RESPONSE_8775",
           "id": 8775,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Bingo! This pattern is a very common way to communicate with databases, and\nfollowing these conventions makes it easier to add more features as our\napplications grow by giving us a clear design to follow.</p>",
-          "weight": 100.0,
-          "html": "<p>It sets up a consistent, logical relationship between object-oriented code and\ndatabase tables.</p>"
+          "text": "It sets up a consistent, logical relationship between object-oriented code and database tables.",
+          "html": "It sets up a consistent, logical relationship between object-oriented code and\ndatabase tables.",
+          "comments": "Bingo! This pattern is a very common way to communicate with databases, and following these conventions makes it easier to add more features as our applications grow by giving us a clear design to follow.",
+          "comments_html": "Bingo! This pattern is a very common way to communicate with databases, and\nfollowing these conventions makes it easier to add more features as our\napplications grow by giving us a clear design to follow."
         },
         {
+          "weight": 0,
+          "migration_id": "RESPONSE_7294",
           "id": 7294,
-          "text": "",
-          "comments": "",
-          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
-          "weight": 0.0,
-          "html": "<p>I don't know.</p>"
+          "text": "I don't know.",
+          "html": "I don't know.",
+          "comments": "Be sure to study the source/s for this question. You'll get it next time."
         }
       ],
       "variables": null,
